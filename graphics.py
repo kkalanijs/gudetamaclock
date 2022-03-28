@@ -97,7 +97,7 @@ def graphics_path():
 		graphicspath = "/home/pi/clock/GudeClock/graphics/jackolantern.png"
 	elif day == '1225':
 		graphicspath = "/home/pi/clock/GudeClock/graphics/christmas.png"
-	elif day == '1231':
+	elif day == '0603':
 		graphicspath = "/home/pi/clock/GudeClock/graphics/birthday.png"
 	else:
 		graphicspath = graphicspath
