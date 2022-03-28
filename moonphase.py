@@ -5,9 +5,9 @@ def moonphase():
 	url = 'https://api.met.no/weatherapi/sunrise/2.0/.json?'
 
 	### TO BE REPLACED ###
-	lat = 'LAT'
-	lon = '-LONG'
-	offset = 'OFFSET'
+	lat = '37.861157910981525'
+	lon = '-122.29283405964075'
+	offset = '-8'
 	### TO BE REPLACED ###
 	
 	date = time.strftime('%Y-%m-%d')
