@@ -1,9 +1,9 @@
 import requests
 
 url = 'https://api.openweathermap.org/data/2.5/weather?q='
-city = 'CITY'
-state = 'STATE/PROVINCE'
-country = 'COUNTRY'
+city = 'Berkeley'
+state = 'CA'
+country = 'USA'
 apikey = '0d8e20b8b70a9296d4cbaa2816dbdecc'
 
 query = '{},{},{}&appid={}'.format(city,state,country,apikey)
