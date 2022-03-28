@@ -6,7 +6,8 @@ weatherid = wid()
 utcsunrise = sunrise()
 utcsunset = sunset()
 utc = datetime.timestamp(datetime.now())
-moonpath = moon_path()
+#moonpath = moon_path()
+moonpath = moonpath()
 
 def icon_path():
 
