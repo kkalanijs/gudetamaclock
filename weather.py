@@ -4,7 +4,7 @@ url = 'https://api.openweathermap.org/data/2.5/weather?q='
 city = 'CITY'
 state = 'STATE/PROVINCE'
 country = 'COUNTRY'
-apikey = 'YOUR OPENWEATHER API KEY'
+apikey = '0d8e20b8b70a9296d4cbaa2816dbdecc'
 
 query = '{},{},{}&appid={}'.format(city,state,country,apikey)
 request = url + query
